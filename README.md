@@ -23,3 +23,7 @@ Add the key to the `.env` file as follows:
 
 ```env
 d0d79eb2a003c31938434d703d0cfc10=your_api_key
+
+## Live Demo
+
+Check out the live version of the app: [Movie Explorer](https://movie-explorer-176ftztad-wijayakumar-darshans-projects.vercel.app)
