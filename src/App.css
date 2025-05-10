@@ -1,0 +1,41 @@
+/* Base container padding */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Top-level app container */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+/* Add spacing around ThemeToggle if needed */
+.theme-toggle-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+}
+
+/* Ensure main content has room to breathe */
+main {
+  flex-grow: 1;
+  padding-bottom: 2rem;
+}
+
+/* Optional footer styling */
+.footer {
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 0.875rem;
+  opacity: 0.6;
+}
+
+/* Responsive tweaks */
+@media (min-width: 768px) {
+  .theme-toggle-wrapper {
+    margin-bottom: 2rem;
+  }
+}

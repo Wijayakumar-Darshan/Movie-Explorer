@@ -1,0 +1,39 @@
+/* MovieCard.css */
+
+/* Ensure cards align responsively and text doesn't overflow */
+.movie-card {
+  width: 100%;
+  max-width: 220px;
+  margin: 8px auto;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease;
+}
+
+.movie-card:hover {
+  transform: translateY(-4px);
+}
+
+.movie-card-content {
+  padding: 10px 12px;
+}
+
+.movie-title {
+  font-size: 1rem;
+  font-weight: 600;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.movie-meta {
+  font-size: 0.85rem;
+  color: #666;
+  margin-top: 4px;
+}
+
+.favorite-icon {
+  margin-top: 6px;
+  padding: 4px;
+}

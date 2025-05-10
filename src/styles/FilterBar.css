@@ -1,0 +1,28 @@
+/* FilterBar container */
+.filter-bar-container {
+  width: 100%;
+  max-width: 100px; /* Reduced from 300px */
+}
+
+/* Form control fills the container */
+.filter-form-control {
+  width: 100%;
+}
+
+/* Optional: Style for the Select input */
+.filter-form-control .MuiSelect-root {
+  font-size: 1rem;
+  padding: 1px;
+}
+
+/* Adjust alignment for larger screens */
+@media (min-width: 600px) {
+  .filter-bar-container {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .filter-form-control {
+    width: 100%;
+  }
+}
